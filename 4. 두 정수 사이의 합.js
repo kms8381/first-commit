@@ -6,19 +6,18 @@
 
 
 
-function sum(a,b){
-    let x = 0
-    if(a<=b){
-        for(let i=a; i<=b; i++){
-            x += i
-
+function sum(a,b){ // 함수 선언
+    let x = 0 // 지역변수 선언
+    if(a<=b){ //조건문 설정
+        for(let i=a; i<=b; i++){ //반복문 설정
+            x += i // x에 i를 더한 값을 재할당 
         }
     }else {
         for(let j=b; j<a; i++){
-            x+=j
+            x+=j // x에 j를 더한 값을 재할당
         }
     }
-    return x;
+    return x; //x 값을 반환
 }
 let xy=sum(3,5)
 console.log(xy);
