@@ -17,5 +17,3 @@ function solution(numbers) {// 함수 선언
 
 numbers=[1, 2, 3, 4, 6, 7, 9]
 solution(numbers)
-
-
