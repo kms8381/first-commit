@@ -1,5 +1,5 @@
 function solution(x) {
-  let strToNum = {
+  let strNum = {
     zero: "0",
     one: "1",
     two: "2",
@@ -19,8 +19,8 @@ function solution(x) {
       continue;
     } else {
       curStr += x[i];
-      if (strToNum[curStr]) {
-        result += strToNum[curStr];
+      if (strNum[curStr]) {
+        result += strNum[curStr];
         curStr = "";
       }
     }
